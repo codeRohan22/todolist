@@ -1,16 +1,26 @@
 {
   "name": "todo-list",
   "version": "1.0.0",
-  "description": "This is a simple to-do list.",
+  "description": "This is an ultimate todo list",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeRohan22/Todo-list.git"
+  },
   "author": "Debanik Biswas",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeRohan22/Todo-list/issues"
+  },
+  "homepage": "https://github.com/codeRohan22/Todo-list#readme",
   "dependencies": {
-    "body-parser": "^1.20.1",
     "ejs": "^3.1.8",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.9.1",
+    "pretty-checkbox": "^3.0.3"
   }
 }
